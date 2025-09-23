@@ -1,0 +1,42 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+/* Container principal com flexbox para alinhamento */
+.container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilo dos cartões */
+.cartao {
+  background-color: aqua;
+  width: 25%;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartao h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cartao p {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #000;
+}
