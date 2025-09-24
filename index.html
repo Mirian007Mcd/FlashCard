@@ -3,67 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Cards de Programação</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      background-color: bisque;
-      padding: 40px;
-      font-family: Arial, sans-serif;
-    }
-
-    .card {
-      background-color: cyan;
-      width: 250px;
-      padding: 20px;
-      border-radius: 5px;
-      position: relative;
-      text-align: center;
-    }
-
-    .tag {
-      background-color: red;
-      color: black;
-      font-weight: bold;
-      padding: 5px 10px;
-      border-radius: 10px;
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-size: 0.9em;
-    }
-
-    .card h3 {
-      margin-top: 30px;
-      font-size: 1.2em;
-    }
-
-    .card p {
-      margin-top: 10px;
-      font-size: 1.1em;
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
+  <section id="container">
+    <article class="cartao">
+      <div class="cartao_conteudo">
+        <h3> Programação</h3>
+        <div class="cartao_conteudo_pergunta">
+          <p>O que é Java Script?</p>
+        </div>
+        <div class="cartao_conteudo_resposta">
+           <p>O Java Script é uma linguagem de programação.</p>
+        </div>
+     </div>
+    </article>
+ 
+    <article class="cartao">
+      <div class="cartao_conteudo">
+        <h3> Programação</h3>
+        <div class="cartao_conteudo_pergunta">
+          <p>O que é CSS?</p>
+        </div>
+        <div class="cartao_conteudo_resposta">
+           <p> CSS é uma linguagem de estilização.</p>
+        </div>
+     </div>
+    </article>
 
-  <div class="card">
-    <div class="tag">Programação</div>
-    <h3>O que é Java Script?</h3>
-    <p>O Java Script é uma linguagem de programação.</p>
-  </div>
+        <article class="cartao">
+      <div class="cartao_conteudo">
+        <h3> Programação</h3>
+        <div class="cartao_conteudo_pergunta">
+          <p>O que é CSS?</p>
+        </div>
+        <div class="cartao_conteudo_resposta">
+           <p> CSS é uma linguagem de estilização.</p>
+        </div>
+     </div>
+    </article>
 
-  <div class="card">
-    <div class="tag">Programação</div>
-    <h3>O que é CSS?</h3>
-    <p>O CSS é uma linguagem de estilização.</p>
-  </div>
+  </section>
+ 
 
-  <div class="card">
-    <div class="tag">Programação</div>
-    <h3>O que é CSS?</h3>
-    <p>O CSS é uma linguagem de estilização.</p>
-  </div>
-
-</body>
+  </body>
 </html>

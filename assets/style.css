@@ -12,8 +12,9 @@ body {
 }
 
 /* Container principal com flexbox para alinhamento */
-.container {
+#container {
   display: flex;
+  
   gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
@@ -22,21 +23,23 @@ body {
 /* Estilo dos cartões */
 .cartao {
   background-color: aqua;
-  width: 25%;
-  min-width: 250px;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 1rem;
+  height: 20rem
+  flex: grow 1;
+  flex-basis: calc(33% -6rem);
+
 }
 
-.cartao h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+.cartao_conteudo{
+  text-align: center;
+  height: 100%;
 }
 
-.cartao p {
-  margin-bottom: 0.8rem;
-  font-size: 1rem;
-  color: #000;
+.cartao_conteudo h3 {
+  background-color: tomato;
+  text-align: left;
+  padding: 0.5rem;
+  position:absolute;
+  margin: 0.6rem;
+  font-size: 1vw;
 }
